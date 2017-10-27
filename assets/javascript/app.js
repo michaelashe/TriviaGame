@@ -20,7 +20,13 @@ $(document).ready(function() {
           if (number === 0) {
             clearInterval(intervalId);
             alert("Time's Up!");
-          }
+            }
+
+          if (number === 0) {
+            $("#message").append("<h2>Correct Answers: " + correctAnswer + "</h2>");
+            $("#message").append("<h2>Incorrect Answers: " + wrongAnswer + "</h2>");
+            $("#message").append("<h2>Unanswered Questions: " + unanswered + "</h2>");
+          }  
       };
 
   var questions = [
@@ -71,40 +77,17 @@ console.log(answerKey);
 
 //When the submit button is pressed, tally answers into correct or incorrect responses
 
+$("#submitButton").click(function() {
 
-//Display the score on screen
+//Testing Button
+  alert("You Pressed Me!");
+
+
+});
 
 
 console.log(questions[0].choices[0]);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function makeRadioButton(name, value, text) {
-
-//     var label = document.createElement("label");
-//     var radio = document.createElement("input");
-//     radio.type = "radio";
-//     radio.name = name;
-//     radio.value = value;
-
-//     label.appendChild(radio);
-
-//     label.appendChild(document.createTextNode(text));
-//     return label;
-//   }
 
 });
