@@ -1,0 +1,27 @@
+body {
+	background: url("../images/wrestlingring4.jpg");
+}
+
+
+.jumbotron {
+	width: 845px;
+    margin-left: 174px;
+    text-align: center;
+    height: 845px;
+    margin-top: 45px;
+    float: left;
+}
+
+#counter {
+	width: 75px;
+	color: white;
+    background-color: royalblue;
+    margin-left: 1035px;
+    margin-right: 151px;
+    height: 65px;
+    padding-top: 2px;
+    padding-left: 25px;
+    margin-top: 20px
+    border-radius: 90%;
+    
+}
